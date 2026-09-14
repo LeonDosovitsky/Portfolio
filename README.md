@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! Here, I document my projects in the data field.
 
-💼Find me on [Linkedin](www.linkedin.com/in/leon-dosovitsky)
+💼Find me on [Linkedin](https://www.linkedin.com/in/leon-dosovitsky/)
 
 | Project link | Tools | Description |
 | --- | --- | --- |
