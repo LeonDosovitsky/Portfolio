@@ -15,13 +15,13 @@ This project aims to analyze Costco's e-commerce sales to identify the following
 
 The first 5 rows reflect that the data does not have the same format. I will clean the age & gender columns by removing "years" and transforming Male/Female -> M/F.
 
-<img width="1094" height="483" alt="Image" src="https://github.com/user-attachments/assets/7e88bc8a-ee0f-410a-95ad-3620392a7084" />
+![1](https://github.com/LeonDosovitsky/Images/blob/main/Images/costco_1.png?raw=true)
 
 I extracted the maximum & minimum ages of customers, and created the following age groups: [18-29] [30-49] [50-65] [0]. The data from the age group 0 will be removed for this analysis in a future step.
 <br><br>
 I converted the age to Int64 since the age was a string and the column contains NaN values.
 
-<img width="1096" height="736" alt="Image" src="https://github.com/user-attachments/assets/2867aef5-e73c-463e-8152-8fa4fcdac943" />
+![2](https://github.com/LeonDosovitsky/Images/blob/main/Images/costco_2.png?raw=true)
 
 I made some Left Joins to add the age group and product name to the orders.<br>
 Removed all rows with age_group 0.
