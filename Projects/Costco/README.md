@@ -32,11 +32,11 @@ As a last step I created a new DataFrame with only the relevant data for my anal
 
 Taking the first part as a base template, I added a column with the rounded profit amount by item and a column with the total profit per row to account for multiple purchases of the same item in 1 order.
 
-<img width="1097" height="777" alt="Image" src="https://github.com/user-attachments/assets/666eb9b8-b3dd-4a3b-823b-c01c07dcd239" />
+![3](https://github.com/LeonDosovitsky/Images/blob/main/Images/costco_3.png?raw=true)
 
 I created and joined DataFrames for the total quantity ordered, the total profit for each order and for the gender of the account.
 
-<img width="1096" height="489" alt="Image" src="https://github.com/user-attachments/assets/3c257a43-e781-4811-ac11-85d9b0715428" />
+![4](https://github.com/LeonDosovitsky/Images/blob/main/Images/costco_4.png?raw=true)
 
 For the last step I removed all orders with less than 20 items and orders without the gender set as "M".<br>
 I exported the file as a .CSV
@@ -44,7 +44,7 @@ I exported the file as a .CSV
 ## 📊Dashboard
 I made a simple TABLEAU dashboard to present the results of the analysis : [Tableau Dashboard](https://public.tableau.com/app/profile/leon.dosovitsky/viz/Costco_17891681902780/Dashboard1)
 
-<img width="647" height="853" alt="Image" src="https://github.com/user-attachments/assets/49f58b2c-5b75-442b-9eb5-c34d1789db44" />
+![5](https://github.com/LeonDosovitsky/Images/blob/main/Images/costco_5.png?raw=true)
 
 
 
